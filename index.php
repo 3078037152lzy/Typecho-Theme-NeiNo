@@ -31,6 +31,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
             <div class="posts">
                 <br>
+                <?php while($this->next()): ?>
                 <div class="one-post">
                     <div class="one-post-title">
                         <a href="<?php $this->permalink() ?>">
@@ -39,7 +40,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         <info>#<?php $this->category(','); ?> | <?php $this->date('Y-m-d'); ?> | <?php $this->commentsNum('%d条评论'); ?></info>
                     </div>
                 </div>
-
+                <?php endwhile; ?>
                     <br>
             </div>
 
