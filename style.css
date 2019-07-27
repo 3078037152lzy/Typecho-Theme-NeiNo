@@ -1,0 +1,275 @@
+/**全局**/
+html{
+    letter-spacing:2.5px;
+}
+a:link{
+    text-decoration:none;
+    color:#80D8FF;
+}
+a:hover{
+    transition: all 0.3s ease;
+    color:#3c6779;
+}
+a:link,
+a:visited,a:active {
+	text-decoration: none;
+	-webkit-transition: text-shadow 200ms ease-in 0ms, color 200ms ease-in 0ms;
+	-moz-transition: text-shadow 200ms ease-in 0ms, color 200ms ease-in 0ms;
+	-ms-transition: text-shadow 200ms ease-in 0ms, color 200ms ease-in 0ms;
+	-o-transition: text-shadow 200ms ease-in 0ms, color 200ms ease-in 0ms;
+	transition: text-shadow 200ms ease-in 0ms, color 200ms ease-in 0ms;
+}
+
+/**PC**/
+/**电脑端**/
+
+@media screen and (min-width:960px){
+
+
+    info{
+        font-size:15px;
+    }
+
+
+    body{
+        background-image:url(./img/bg.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+    }
+    .main{
+        filter:alpha(opacity=50);   
+        -moz-opacity:0.5;   
+        -khtml-opacity: 0.5;   
+        opacity: 0.9;  
+        margin: 3% 25% 0 25%;
+        
+    }
+    .head{
+        text-align: center;
+        border-radius: 20px;
+        background-color:rgba(255, 255, 255, 0.9);
+        box-shadow: darkgrey 0px 0px 30px 5px ;
+    }
+    .head-img>img{
+        border-radius: 50%;
+    }
+
+    .posts,.sidebar,.footer{
+        border-radius: 20px;
+        background-color:rgba(255, 255, 255, 0.9);
+        margin-top: 3%;
+        box-shadow: darkgrey 0px 0px 30px 5px 
+    }
+    .one-post-title{
+        margin:2% 0 0 5%;
+    }
+
+    .sidebar,.footer{
+        text-align: center;
+    }
+    /**News**/
+    .news{
+        margin-bottom:25%;
+    }
+    .news-left{
+        float:left;
+        height:150px;
+        width: 48%;
+        border-radius: 20px;
+        background-color:rgba(255, 255, 255, 0.9);
+        margin-top: 3%;
+        box-shadow: darkgrey 0px 0px 30px 5px  ;
+    }
+    .news-right{
+        float:right;
+        height:150px;
+        width: 48%;
+        border-radius: 20px;
+        background-color:rgba(255, 255, 255, 0.9);
+        margin-top: 3%;
+        box-shadow: darkgrey 0px 0px 30px 5px  ;
+    }
+
+    /**文章**/
+
+    .post-main{
+        border-radius: 20px;
+        background-color:rgba(255, 255, 255, 0.9);
+        margin-top: 3%;
+        box-shadow: darkgrey 0px 0px 30px 5px 
+    }
+    .post-main-main{
+        margin:2% 5% 0 5%;
+    }
+    .post-main-main>font>img{
+        margin:0 auto;
+        display:block;
+        border-radius: 10px;
+
+    }
+
+
+    /**Comments**/
+
+    .comments,.comments-input{
+        border-radius: 20px;
+        background-color:rgba(255, 255, 255, 0.9);
+        margin-top: 3%;
+        box-shadow: darkgrey 0px 0px 30px 5px ;
+    }
+    .comments-main{
+        margin:2% 5% 0 5%;
+    }
+    .comments-one-head{
+        float: left;
+    }
+    .comments-one-head>img{
+        border:1px solid black;
+        border-radius: 50px;
+        height: 50px;
+        margin-right: 5px;
+    }
+    .comments-one-say{
+        border-radius: 20px;
+    }
+    .comments-input-main{
+        margin:2% 5% 0 5%;
+    }
+    .comments-input-input{
+        text-align: center;
+    }
+    .inputstyle1{
+        background-color:rgb(255, 255, 255);
+        height:30px;
+        outline-style: none ; 
+    }
+    .inputstyle2{
+        height:60px;
+        width: 100%;
+        outline-style: none ; 
+    }
+}
+/**Mobile**/
+@media screen and (max-width: 960px){
+    
+
+    info{
+        font-size:15px;
+    }
+
+
+    body{
+        background-image:url(./img/bg.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+    }
+    .main{
+        filter:alpha(opacity=50);   
+        -moz-opacity:0.5;   
+        -khtml-opacity: 0.5;   
+        opacity: 0.9;  
+        margin: 3% 2% 0 2%;
+        
+    }
+    .head{
+        text-align: center;
+        border-radius: 20px;
+        background-color:rgba(255, 255, 255, 0.9);
+        box-shadow: darkgrey 0px 0px 30px 5px ;
+    }
+    .head-img>img{
+        border-radius: 50%;
+    }
+
+    .posts,.sidebar,.footer{
+        border-radius: 20px;
+        background-color:rgba(255, 255, 255, 0.9);
+        margin-top: 3%;
+        box-shadow: darkgrey 0px 0px 30px 5px 
+    }
+    .one-post-title{
+        margin:2% 0 0 5%;
+    }
+
+    .sidebar,.footer{
+        text-align: center;
+    }
+    /**News**/
+    .news-left{
+        height:150px;
+        width: 100%;
+        border-radius: 20px;
+        background-color:rgba(255, 255, 255, 0.9);
+        margin-top: 3%;
+        box-shadow: darkgrey 0px 0px 30px 5px  ;
+    }
+    .news-right{
+        height:150px;
+        width: 100%;
+        border-radius: 20px;
+        background-color:rgba(255, 255, 255, 0.9);
+        margin-top: 3%;
+        box-shadow: darkgrey 0px 0px 30px 5px  ;
+    }
+
+    /**文章**/
+
+    .post-main{
+        border-radius: 20px;
+        background-color:rgba(255, 255, 255, 0.9);
+        margin-top: 3%;
+        box-shadow: darkgrey 0px 0px 30px 5px 
+    }
+    .post-main-main{
+        margin:2% 5% 0 5%;
+    }
+    .post-main-main>font>img{
+        margin:0 auto;
+        display:block;
+        border-radius: 10px;
+
+    }
+
+
+    /**Comments**/
+
+    .comments,.comments-input{
+        border-radius: 20px;
+        background-color:rgba(255, 255, 255, 0.9);
+        margin-top: 3%;
+        box-shadow: darkgrey 0px 0px 30px 5px ;
+    }
+    .comments-main{
+        margin:2% 5% 0 5%;
+    }
+    .comments-one-head{
+        float: left;
+    }
+    .comments-one-head>img{
+        border:1px solid black;
+        border-radius: 50px;
+        height: 50px;
+        margin-right: 5px;
+    }
+    .comments-one-say{
+        border-radius: 20px;
+    }
+    .comments-input-main{
+        margin:2% 5% 0 5%;
+    }
+    .comments-input-input{
+        text-align: center;
+    }
+    .inputstyle1{
+        background-color:rgb(255, 255, 255);
+        height:30px;
+        outline-style: none ; 
+    }
+    .inputstyle2{
+        height:60px;
+        width: 100%;
+        outline-style: none ; 
+    }
+}
