@@ -49,11 +49,11 @@
                     <h2>留下你想说的</h2>
                     <div class="comments-input-input">
                         <form action="">
-                                <input type="text" name="title"  placeholder="昵称" autocomplete="off" class="inputstyle1">
-                                <input type="text" name="title"  placeholder="邮箱" autocomplete="off" class="inputstyle1">
-                                <input type="text" name="title"  placeholder="网址" autocomplete="off" class="inputstyle1">
+                                <input type="text" name="title" placeholder="昵称" autocomplete="off" class="layui-input">
+                                <input type="text" name="title" placeholder="邮箱" autocomplete="off" class="layui-input">
+                                <input type="text" name="title" placeholder="网址" autocomplete="off" class="layui-input">
                                 <br>
-                                <input type="text" name="title"  placeholder="留言" autocomplete="off" class="inputstyle2">
+                                <input type="text" name="title" style="height:10%;" placeholder="留言" autocomplete="off" class="layui-input">
                                 <input type="submit" value="Fa♂送留言" class="layui-btn layui-btn-radius layui-btn-normal" /></p>
                         </form>
                     </div>
