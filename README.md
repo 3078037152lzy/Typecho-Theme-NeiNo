@@ -11,7 +11,7 @@
     + 1.成立项目，开始制作
 + 2019-7-28
     + 1.托管到github，开始公开
-
+    + 2.修复index目录没有循环的问题
 ## 尚未解决的问题
 - Comments.php
 - functions.php
