@@ -1,11 +1,13 @@
 <?php
 /**
- * NeiNo主题
+ * 一款以透明为主的typecho壁纸，肥肠的高端大气上档次！
+ * 当前正在开发
+ * Github: https://github.com/obentnet/Typecho-Theme-NeiNo
  * 
  * @package Typecho NeiNo Theme 
  * @author 1Jnver
- * @version 1.0.0
- * @link https://github.com/obentnet/Typecho-Theme-NeiNo
+ * @version 0.8.7
+ * @link https://yujienb.cn/
  */
 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
@@ -17,7 +19,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
             <div class="head">
                 
                 <div class="head-img">
-                    <img src="<?php $this->options->themeUrl('/img/head.bmp'); ?>" alt="">
+                    <img src="<?php $this->options->themeUrl('/img/index-head.jpg'); ?>" style="width:15%;" alt="">
                 </div>
                 <div class="head-title">
                     <font size="6px;"><?php $this->options->title() ?></font>
