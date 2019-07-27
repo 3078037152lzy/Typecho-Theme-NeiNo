@@ -1,5 +1,50 @@
- <!--comments-start-->
- <div class="comments-input">
+ <!--Comments-->
+
+ <div class="comments">
+                <div class="comments-main">
+                    <h2>Comments</h2>
+                    <div class="comments-one" style="margin-bottom:10px;">
+                        <div class="comments-one-head"  style="width:50px;">
+                            <img src="https://yujienb.cn/head.jpg" alt=""/>
+                        </div>
+                        <div class="comments-one-name">
+                            <font size="3px;">狱杰</font>
+                            &nbsp;&nbsp;&nbsp;<a href="">回复</a>
+                        </div>
+                        <div class="comments-one-say" style="margin-left:10%">
+                            牛逼
+                        </div>
+                        <br>
+                    </div>
+                    <!--Repeat-->
+                    <div class="comments-one" style="margin-bottom:10px;">
+                        <div class="comments-one-head"  style="width:50px;">
+                            <img src="https://yujienb.cn/head.jpg" alt=""/>
+                        </div>
+                        <div class="comments-one-name">
+                            <font size="3px;">狱杰</font>
+                            &nbsp;&nbsp;&nbsp;<a href="">回复</a>
+                        </div>
+                        <div class="comments-one-say" style="margin-left:10%">
+                            牛逼
+                        </div>
+                        <!--Repaet-info-->
+                                    <div class="comments-one-head"  style="width:50px;">
+                                        <img src="https://www.coolapk.com/static/images/header-logo.png" alt=""/>
+                                    </div>
+                                    <div class="comments-one-name">
+                                        <font size="3px;">狱杰助手</font>
+                                        &nbsp;&nbsp;&nbsp;回复了 @<a href="">狱杰</a>|&nbsp;<a href="">回复</a>
+                                    </div>
+                                    <div class="comments-one-say" style="margin-left:15%">
+                                        我也很牛逼
+                                    </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <!--comments-start-->
+            <div class="comments-input">
                 <div class="comments-input-main">
                     <h2>留下你想说的</h2>
                     <div class="comments-input-input">
