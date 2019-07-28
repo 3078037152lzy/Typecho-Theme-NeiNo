@@ -24,8 +24,8 @@
             </div>
             <br>
             <br>
-            <div class="mdui-typo-caption">&copy;</div>
-            <div class="mdui-typo-caption">image for Bilibili design by mdui 1Jnver</div>
+            <div class="mdui-typo-caption">&copy;2019 this</div>
+            <div class="mdui-typo-caption">image from Bilibili, design by mdui, 1Jnver</div>
         </div>
     </body>
 </html>
