@@ -6,7 +6,7 @@
  * 
  * @package Typecho NeiNo Theme 
  * @author 1Jnver
- * @version 0.8.7
+ * @version 0.9.8 Beta
  * @link https://yujienb.cn/
  */
 
@@ -25,13 +25,19 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                     <font size="6px;"><?php $this->options->title() ?></font>
                     <br>
                     <font size="3px;"><?php $this->options->description() ?></font>
+                    <?php $this->need('sidebar.php'); ?>
+                    <br>
                 </div>
 
             </div>
-            <?php $this->need('sidebar.php'); ?>
-
 
             <div class="posts">
+                <br>
+                <div class="serach">
+                    <form method="post" action="">
+                        <div><input type="text" placeholder="举个栗子吧~" name="s" class="layui-input" size="32" /></div>
+                    </form>
+                </div>
                 <br>
                 <?php while($this->next()): ?>
                 <div class="one-post">
@@ -61,8 +67,8 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                     </div>
                 </div>
 
-                <div class="news-right">
-                    <div class="news-right-main" style="margin-left:10%">
+                <div class="news-right" style="overflow:hidden;">
+                    <div class="news-right-main" style="margin-left:10%;">
                         <font>
                         <h3>最新评论</h3>
                         <ul>
@@ -80,7 +86,4 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
             </div>
 
             <!--News End-->
-
-
-
 <?php $this->need('footer.php'); ?>
